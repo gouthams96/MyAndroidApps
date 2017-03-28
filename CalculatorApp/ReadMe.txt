@@ -1,1 +1,1 @@
-My first android app 
+Simple Calculator
