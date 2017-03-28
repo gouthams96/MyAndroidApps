@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.fragmentapp.SignUpFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|top">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/username"
+            android:hint="Username" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/password"
+            android:hint="Password" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:text="SignUp"
+            android:id="@+id/sign"
+            android:layout_gravity="center_horizontal"
+            android:background="#2953f7" />
+    </LinearLayout>
+</FrameLayout>
